@@ -4,11 +4,17 @@
   "description": "tictactoe game",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack -w"
   },
-  "keywords": [
-    "game"
-  ],
+  "keywords": ["game"],
   "author": "David Chung",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.3.2",
+    "reactdom": "^2.0.0",
+    "webpack": "^4.6.0"
+  }
 }
